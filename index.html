@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pradnya Tavandkar</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link
+      rel="icon"
+      href="https://firebasestorage.googleapis.com/v0/b/itsgaurav-23.appspot.com/o/Portfolio%2Fpicon.jpg?alt=media&token=06436c00-1b9e-414d-a019-62b4ce47667c"
+      type="image/x-icon"
+    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <button class="floating-btn"><i class="fas fa-moon"></i></button>
+    <button class="menu-btn"><i class="fas fa-bars"></i></button>
+
+    <div class="menu-drawer">
+        <button onclick="scrollToSection('home'), handleMenuClick()">Home <i class="fas fa-home icon"></i></button>
+        <button onclick="scrollToSection('about'), handleMenuClick()">About Me <i class="fas fa-user icon"></i></button>
+        <button onclick="scrollToSection('project'), handleMenuClick()">Projects <i class="fas fa-list icon"></i></button>
+        <button onclick="scrollToSection('contact'), handleMenuClick()">Contact <i class="fas fa-comments icon"></i></button>
+    </div>
+    <div class="blur-overlay"></div>
+  <header class="bg-dark text-white text-center py-5">
+   <div class="header-content">
+    <div class="button-container">
+            <button onclick="scrollToSection('home'), handleMenuClick()">Home <i class="fas fa-home icon"></i></button>
+        <button onclick="scrollToSection('about'), handleMenuClick()">About Me <i class="fas fa-user icon"></i></button>
+        <button onclick="scrollToSection('project'), handleMenuClick()">Projects <i class="fas fa-list icon"></i></button>
+        <button onclick="scrollToSection('contact'), handleMenuClick()">Contact <i class="fas fa-comments icon"></i></button>
+        </div>
+      </div>
+    <div class="container">
+      <h1 class="display-4">I'm Pradnya Tavandkar</h1>
+      <p class="lead">A Frontend Web Developer</p>
+    </div>
+  </header>
+  <section class="about-us text-center py-5" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://firebasestorage.googleapis.com/v0/b/itsgaurav-23.appspot.com/o/Portfolio%2FPradnya1.jpg?alt=media&token=a6576bbf-9bf7-4b9d-aa54-3cf4156f28e9" alt="Developer Photo" class="img-fluid developer-img mb-3">
+        </div>
+        <div class="col-md-8 a-content">
+          <h2>You can hire me for your next project.</h2>
+          <p class="lead">Frontend Web Developer</p>
+          <p>Transforming design concepts into fully functional, user-friendly web applications is at the heart of what I do. With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life, ensuring they are both aesthetically pleasing and technically sound. My goal is to bridge the gap between design and technology, creating digital experiences that are both innovative and efficient.</p>
+          <button onclick="scrollToSection('contact')" class="btn btn-danger">Wanna Hire Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 " id="about">
+    <h1 class="headers">About me <i class="fas fa-user icon"></i></h1>
+   <div class="education-skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 education">
+          <h2>My Education</h2>
+          <ul class="list-unstyled">
+            <li class="edc-details">
+              <h4>10th SSC</h4>
+              <p><i class="fa fa-calendar icon"></i>  2019 - 2020</p>
+            <p>
+                I had completed my 10th from SSC board with 80.60%.
+            </p>
+            </li>
+            <li class="edc-details">
+              <h4>12th HSC</h4>
+              <p><i class="fa fa-calendar icon"></i> 2021-2022</p>
+            <p>
+                And about my 12th examination from HSC board and I obtained 55.83%.
+            </p>
+            </li>
+            <li class="edc-details">
+              <h4>FY BSc-Computer Science</h4>
+              <p><i class="fa fa-calendar icon"></i> 2022-2023</p>
+            <p>
+                I had completed my First Year form Savitribai Phule University and from S.M Joshi college, Hadapsar with SGPA : (1) 6.23 (2) 7.82.
+            </p>
+            </li>
+            <li class="edc-details">
+              <h4>SY BSc-Computer Science</h4>
+              <p><i class="fa fa-calendar icon"></i> 2023-2024</p>
+              <p>
+                  And In Second Year I continued at same university and college and obtained SGPA : (3) 7.55 (4) 8.27.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 skills">
+          <h2 class="myskill">My Skills</h2>
+          <br>
+          <ul class="list-unstyled">
+            <li class="edc-details">
+              <h4>HTML<span class="float-right">90%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>CSS<span class="float-right">75%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>JavaScript<span class="float-right">70%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>C Programing<span class="float-right">90%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>DSA<span class="float-right">80%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>Python<span class="float-right">60%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>MySQL<span class="float-right">65%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>Linux<span class="float-right">50%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;"></div>
+              </div>
+            </li>
+            <li class="edc-details">
+              <h4>Postgres-SQL<span class="float-right">65%</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 65%;"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   </div>
+  </section>
+  <section class="project" id="project">
+   <h1 class="headers">Projects <i class="fas fa-list icon"></i></h1>
+     <div class="projects">
+      <div class="project-box">
+    <img src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2FNeonAI.jpg?alt=media&token=48b3fa0b-e7e6-4056-8f73-32c941bffe9f" alt="Project Title">
+    <div class="project-details">
+        <a href="https://github.com/gauravprajapati23/Neon09" class="project-link"><i class="fas fa-link icon"></i></a>
+    </div>
+</div>
+<div class="project-box">
+    <img src="https://firebasestorage.googleapis.com/v0/b/samarthpharate-96.appspot.com/o/Portfolio%2FImage%2FELibrary.jpg?alt=media&token=a3570018-8c53-47b4-a5cc-8e131b9a92bd" alt="Project Title">
+    <div class="project-details">
+        <a href="https://e-library-09.web.app/" class="project-link"><i class="fas fa-link icon"></i></a>
+    </div>
+</div>
+<div class="project-box">
+    <img src="https://firebasestorage.googleapis.com/v0/b/itsgaurav-23.appspot.com/o/Portfolio%2Ft-fire.jpg?alt=media&token=d325bd73-3d73-48c9-b4ba-862dbeabeca2" alt="Project Title">
+    <div class="project-details">
+        <a href="https://github.com/gauravprajapati23/t-fire" class="project-link"><i class="fas fa-link icon"></i></a>
+    </div>
+</div>
+</div>
+  </section>
+  <br>
+  <section id="contact" class="contact-section contact">
+   <h1 class="headers">Contact Me <i class="fas fa-comments icon"></i></h1>
+    <div class="c-container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Contact Information</h3>
+                <ul class="contact-info">
+                    <li><i class="fa fa-user"></i> Pradnya Tavandkar</li>
+                    <li><i class="fa fa-envelope"></i> <a href="mailto: pradnyatavandkar25@gmail.com"> pradnyatavandkar25@gmail.com</a></li>
+                    <li><i class="fa fa-map-marker"></i> Pune, Maharashtra, India</li>
+                </ul>
+                <h3>Social Links <i class="fas fa-user-plus icon"></i></h3>
+                <div class="social-links">
+    <a href="https://www.instagram.com/its_pradnya_25_" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/pradnya-tavandkar-511756315" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/pradnyatavandkar25" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+</div>
+            </div>
+            <div class="col-md-6">
+                <h3>Get in Touch</h3>
+                <form id="contact-form" action="https://formsubmit.co/pradnyatavandkar25@gmail.com" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" name="message" id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <input type="hidden" name="_captcha" value="false" />
+              <input
+                type="hidden"
+                name="_next"
+                value="https://firebasestorage.googleapis.com/v0/b/coderc-23.appspot.com/o/E-Library%2Fthanku.html?alt=media&token=1adc93e0-f34c-4a0a-9e82-8de4bf9c4171"
+              />
+              <input type="hidden" name="_template" value="table" />
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Pradnya Tavandkar. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script>
+  <script src="https://firebasestorage.googleapis.com/v0/b/itsgaurav-23.appspot.com/o/Privacy%2Fprivacy.js?alt=media&token=46db7266-a036-463d-85b1-acb86ada90b5"></script>
+</body>
+</html>
